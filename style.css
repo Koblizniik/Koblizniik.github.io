@@ -1,0 +1,315 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0px;
+    border:0;
+    outline:0;
+    font-size:100%;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+
+   background: rgb(112,112,112);
+   background: linear-gradient(0deg, rgba(112,112,112,1) 11%, rgba(0,0,0,1) 66%);
+}
+
+.active{
+  background-color: #4CAF50;
+
+
+}
+
+
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+dt{
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  font-family: Roboto-Thin;
+   color: white;
+}
+
+@font-face{
+  src: url(fonts/Roboto-Bold.ttf);
+  font-family: Roboto-Bold;
+}
+
+@font-face{
+  src: url(fonts/Roboto-Thin.ttf);
+  font-family: Roboto-Thin;
+}
+
+body{
+
+  background-color: #000;
+    background-repeat: no-repeat;
+      background-position: top;
+        background-attachment: fixed;
+          background-size: 1300px 2000px;
+}
+
+.team{
+
+
+}
+.kakat{
+
+  font-family: Roboto-Bold;
+  font-size: 50px;
+
+
+
+}
+ul{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li{
+
+    float: left;
+
+}
+
+.carman{
+
+  color: #fff;
+  background-color: #fff;
+  opacity: 0.5;
+  font-size: 5px;
+
+
+
+}
+
+.Mezera{
+
+padding: 200px;
+}
+
+li a{
+
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: Roboto-Bold;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #3b8a2d;
+}
+
+.container > div{
+
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px 10px;;
+    line-height: 95px;
+    font-size: 30px;
+    text-align: justify;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Roboto-Bold, "Times new roman";
+}
+
+.nekdo{
+
+font-size: 25px;
+
+}
+
+.container{
+
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+
+
+.wrapper{
+
+   margin: 0 auto;
+   width: 1000px;
+}
+
+
+.header{
+
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 90px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: Roboto-Bold, "Times new roman";
+  letter-spacing: 5px;
+  padding: 10px;
+
+}
+
+
+.subheader{
+
+
+  color: #fff;
+  font-size: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: Roboto-Thin, "Times new roman";
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+.subsubheader{
+
+
+  color: #fff;
+  font-size: 35px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: Roboto-Thin, "Times new roman";
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+
+
+.tobi{
+
+text-align: left;
+padding: 30px, 50px;
+
+}
+
+.Kuba{
+
+text-align: right;
+padding: 30px, 50px;
+}
+
+.Dawuka{
+
+text-align: left;
+padding: 30px, 50px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+
+}
+
+
+div.desc {
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-family: Roboto-Thin, "Times new roman";
+}
+
+.Byus_header
+{
+ padding: 50px;
+
+}
+.center
+{
+  display: flex;
+  margin-left: 240px;
+  margin-right: auto;
+  width: 16.1%;
+}
+.goog:hover
+{
+    filter:opacity(60%);
+
+}
+.itch:hover
+{
+    filter:opacity(60%);
+}
+.artS:hover
+{
+      filter:opacity(60%);
+}
+
+.gallery
+{
+
+}
+
+.container
+{
+  
+}
+
+.tree{
+
+  margin-left: 500px;
+}
+
+.new
+{
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #3b8a2d;
+  float: inherit;
+  width: auto;
+
+}
+.copyright{
+
+  text-align: center;
+  color: white;
+  font-family: Roboto-Thin, "Times new roman";
+}
+
+@media(max-width: 800px){
+  .gallery{
+
+    float: none;
+  }
+
+}
